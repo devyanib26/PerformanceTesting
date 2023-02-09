@@ -1,0 +1,37 @@
+
+============ Gitbash Commands ====================
+
+1. Install Gitbash on your system with default settings. It will launch a command line screen.
+
+2. create a folder "PerformanceTesting"
+$ mkdir PerformanceTesting
+
+3. Go to this directory
+$cd PerformanceTesting
+
+4. You can check the content of this folder 
+$ls -lrt
+
+5. Now connect with Github folder using HTTPS link
+$git remote add origin https://github.com/devyanib26/PerformanceTesting.git
+
+6. Pull all the files from Github
+$git pull https://github.com/devyanib26/PerformanceTesting.git
+
+7. Update the status file or place your script in this folder. These files will be marked as untracted for github. So You can check the branch status
+$git status
+
+8. Add these files to staging area and Commit
+$git add .
+$git commit -m "Updating Github 09 Feb 2023 by Devyani"
+
+9. Now push the files to Github
+$git push origin master
+
+================= Github ===============
+1. Login to github
+2. You will see a master branch created.
+3. Pull request from master to main.
+4. Merge and commit the changes.
+5. Delete the master branch.
+
